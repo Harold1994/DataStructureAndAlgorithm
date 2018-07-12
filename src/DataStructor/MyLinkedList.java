@@ -1,12 +1,8 @@
 package DataStructor;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
-
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Stack;
-import java.util.function.DoublePredicate;
 
 public class MyLinkedList<T> implements Iterable<T> {
 

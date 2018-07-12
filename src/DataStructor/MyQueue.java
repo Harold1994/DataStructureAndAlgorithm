@@ -1,8 +1,5 @@
 package DataStructor;
 
-import com.sun.glass.ui.Size;
-import org.omg.CORBA.MARSHAL;
-
 import java.util.NoSuchElementException;
 
 public class MyQueue<T> implements Queue<T>{

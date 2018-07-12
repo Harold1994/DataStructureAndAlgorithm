@@ -1,8 +1,6 @@
 package DataStructor;
 
 import java.util.EmptyStackException;
-import java.util.Iterator;
-import java.util.LinkedList;
 
 public class LinkedStack<T> implements Stack<T> {
     private class Node<U>{
