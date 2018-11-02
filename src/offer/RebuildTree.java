@@ -9,6 +9,9 @@ public class RebuildTree {
         public BinaryTreeNode(int data) {
             this.data = data;
         }
+
+        public BinaryTreeNode() {
+        }
     }
 
     public BinaryTreeNode construct(int[] preorder, int[] inorder) {

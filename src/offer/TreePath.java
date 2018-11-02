@@ -10,16 +10,21 @@ import java.util.List;
 /**
  * todo：二叉树中和为某一值的路径
  */
-public class TreePath {
-    static class BinaryTreeNode {
-        int val;
-        BinaryTreeNode left;
-        BinaryTreeNode right;
+ class BinaryTreeNode {
+    int val;
+    BinaryTreeNode left;
+    BinaryTreeNode right;
 
-        public BinaryTreeNode(int val) {
-            this.val = val;
-        }
+    public BinaryTreeNode(int val) {
+        this.val = val;
     }
+
+    public BinaryTreeNode() {
+    }
+}
+
+public class TreePath {
+
 
     public static void main(String[] args) {
         BinaryTreeNode node = new BinaryTreeNode(10);
